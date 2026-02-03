@@ -2,4 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'roboto';
+
 }
+
+header{
+    padding: 0 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+    .logo{
+        font-size: 48px;
+        font-weight: bold;
+        color: #f9faf8;
+    }
+    .links{
+        display: flex;
+        gap: 18px;   
+    }
+        .links a{
+            text-decoration: none;
+            color: #e5e7eb;
+            font-size: 18px;
+        }
