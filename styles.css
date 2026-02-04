@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto';
-
+    
 }
 
 header{
-    padding: 0 48px;
     display: flex;
     flex: 1;
+    padding: 0 400px;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
 }
     .logo{
-        font-size: 48px;
+        font-size: 24px;
         font-weight: bold;
         color: #f9faf8;
     }
@@ -28,3 +28,40 @@ header{
             color: #e5e7eb;
             font-size: 18px;
         }
+
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 400px;
+}
+    .herotxt{
+        color: #f9faf8;
+    }
+        .herotxt h1{
+            font-size: 48px;
+        }
+        .herotxt p{
+            font-size: 18px;
+            color: #e5e7eb;
+        }
+    
+    .hero img{
+        width: 1000px;
+        height: 300px;
+        margin-left: 48px;
+    }
+
+    .hero button{
+        all: unset;
+        cursor: pointer;
+        margin: 10px 0;
+        font-weight: bold;
+        background-color: #3882f6;
+        color: #e5e7eb;
+        padding: 5px 24px;
+        border-radius: 5px;
+    }
+
