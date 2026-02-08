@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto';
-    
 }
 
 header{
     display: flex;
     flex: 1;
     padding: 0 400px;
+    padding-top: 20px;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
@@ -65,3 +65,88 @@ header{
         border-radius: 5px;
     }
 
+.content{
+    width: auto;
+}
+    .content h2{
+        margin-top: 48px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937;
+    }
+
+    .info-cards{
+        display: flex;
+        flex: 1;
+        padding: 0 400px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+        .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+        }
+            .card img{
+                border-radius: 15px;
+                display: block;
+                margin-bottom: 0;
+            }
+            .card p{
+                margin: 0;
+                text-align: center;
+                color: #494a4c;
+            }
+
+.quote{
+    padding: 200px 400px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    height: 500px;
+    width: 100%;
+}
+    .quote h3{
+        text-align: end;
+        font-size: 24px;
+    }
+
+
+.call-to-action{
+    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+    .sign-up{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 70px 100px;
+        color: #f9faf8;
+        background-color: #3882f6;
+        border-radius: 15px;
+    }   
+        .sign-up button{
+            all: unset;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 4px 12px;
+            margin-left: 40px;
+            border: 2px solid;
+            border-radius: 5px;
+            border-color: #e5e7eb;
+        }
+
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 50px;
+}
